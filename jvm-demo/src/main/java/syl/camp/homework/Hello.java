@@ -1,4 +1,4 @@
-package syl.camp.first;
+package syl.camp.homework;
 
 /**
  * 【第一周】【作业1】
@@ -6,7 +6,7 @@ package syl.camp.first;
  *
  * @author sunyl
  * @date 2021/8/8 8:48 下午
- * @see syl.camp.first
+ * @see syl.camp.homework
  */
 public class Hello {
 
