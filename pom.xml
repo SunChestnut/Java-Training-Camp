@@ -8,6 +8,7 @@
 	<modules>
 		<module>nio-demo</module>
 		<module>jvm-demo</module>
+		<module>concurrent-demo</module>
 	</modules>
 
 	<parent>

@@ -36,7 +36,7 @@ public class HttpServer01 {
             PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
             printWriter.println("HTTP/1.1 200 OK");
             printWriter.println("Content-Type:text/html;charset=utf-8");
-            String body = "hello,nio1";
+            String body = "Hello,nio1";
 
             // HTTP/1.1 中规定，如果一个请求中包含 message-body，则必须包含 Content-Length，所以如果将下行代码注掉，在浏览器中访问会报错
             // > If a request contains a message-body and a Content-Length is not given,

@@ -20,9 +20,10 @@ import java.io.IOException;
 @Slf4j
 public class OkHttpDemo {
 
-    private final static String BASE_URL = "http://127.0.0.1:8801";
+    private final static String BASE_URL = "http://127.0.0.1:8803";
 
-    public static void syncGetRequest() {
+    public static String syncGetRequest() {
+        String responseBody = "";
         try {
             OkHttpClient client = new OkHttpClient();
 
@@ -34,16 +35,15 @@ public class OkHttpDemo {
             Response response = call.execute();
             ResponseBody body = response.body();
 
-            assert body != null;
-            log.info("Response : {}", body.string());
-
+            responseBody = body.string();
         } catch (IOException e) {
             log.error("Something Wrong:{}", e.getMessage());
         }
+        return responseBody;
     }
 
     public static void main(String[] args) {
-        syncGetRequest();
+        System.out.println(syncGetRequest());
     }
 
 }

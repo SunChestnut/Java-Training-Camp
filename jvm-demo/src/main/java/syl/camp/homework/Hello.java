@@ -3,6 +3,7 @@ package syl.camp.homework;
 /**
  * 【第一周】【作业1】
  * 自己写一个简单的 Hello.java，里面需要涉及基本类型，四则运行，if 和 for，然后自己分析一下对应的字节码。
+ * ⚠️ 字节码分析部分暂时缺席
  *
  * @author sunyl
  * @date 2021/8/8 8:48 下午
