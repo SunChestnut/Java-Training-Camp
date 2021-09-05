@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-demo
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.33.10:3306/practice-db?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true
+    username: root
+    password: example123
+
+awesome:
+  spring:
+    boot:
+      id: 5566
+      name: CustomerName
