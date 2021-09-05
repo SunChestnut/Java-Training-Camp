@@ -9,6 +9,8 @@
 		<module>nio-demo</module>
 		<module>jvm-demo</module>
 		<module>concurrent-demo</module>
+		<module>spring-demo</module>
+		<module>springjms-demo</module>
 	</modules>
 
 	<parent>
@@ -18,7 +20,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.syl.camp</groupId>
+	<groupId>syl.camp</groupId>
 	<artifactId>Java-Training-Camp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Java-Training-Camp</name>
@@ -26,6 +28,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<fastjson.version>1.2.75</fastjson.version>
 	</properties>
 
 	<dependencies>
@@ -47,11 +50,24 @@
 			<version>5.7.2</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>2.4</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>${fastjson.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter -->
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>2.0.1</version>
 		</dependency>
 
 		<dependency>

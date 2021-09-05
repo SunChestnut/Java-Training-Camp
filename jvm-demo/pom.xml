@@ -5,7 +5,7 @@
 
 	<parent>
 		<artifactId>Java-Training-Camp</artifactId>
-		<groupId>com.syl.camp</groupId>
+		<groupId>syl.camp</groupId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
