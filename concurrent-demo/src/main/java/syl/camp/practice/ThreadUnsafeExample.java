@@ -1,4 +1,4 @@
-package syl.camp.trash;
+package syl.camp.practice;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * @author sunyl
  * @date 2021/8/26 2:02 下午
- * @see syl.camp.trash
+ * @see syl.camp.practice
  */
 public class ThreadUnsafeExample {
 

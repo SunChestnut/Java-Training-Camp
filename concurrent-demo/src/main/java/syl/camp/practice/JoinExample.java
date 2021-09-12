@@ -1,4 +1,4 @@
-package syl.camp.trash;
+package syl.camp.practice;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
  *
  * @author sunyl
  * @date 2021/8/25 7:54 下午
- * @see syl.camp.trash
+ * @see syl.camp.practice
  */
 @Slf4j
 public class JoinExample {
