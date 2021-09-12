@@ -95,18 +95,18 @@ xmind，百度脑图，wps，MindManage，或其他。![酝酿中，敬请期待
    
       4.5 （超级挑战）尝试使用 ByteBuddy 与 Instrument 实现一个简单 JavaAgent 实现无侵入下的 AOP。
 
-5.（选做）总结一下，单例的各种写法，比较它们的优劣。 
+5.（选做）总结一下，单例的各种写法，比较它们的优劣。
 
-6.（选做）maven/spring 的 profile 机制，都有什么用法？ 
+6.（选做）maven/spring 的 profile 机制，都有什么用法？
 
 7.（选做）总结 Hibernate 与 MyBatis 的各方面异同点。
 
-8.<span style="color:red">（必做）</span>给前面课程提供的 Student/Klass/School 实现自动配置和 Starter。 
+8.<span style="color:red">（必做）</span>给前面课程提供的 Student/Klass/School 实现自动配置和 Starter。
 
-9.（选做）学习 MyBatis-generator 的用法和原理，学会自定义 TypeHandler 处理复杂类型。 
+9.（选做）学习 MyBatis-generator 的用法和原理，学会自定义 TypeHandler 处理复杂类型。
 
-10.<span style="color:red">（必做）</span>研究一下 JDBC 接口和数据库连接池，掌握它们的设计和用法： 
-  
+10.<span style="color:red">（必做）</span>研究一下 JDBC 接口和数据库连接池，掌握它们的设计和用法：
+
       1）使用 JDBC 原生接口，实现数据库的增删改查操作。 
       2）使用事务，PrepareStatement 方式，批处理方式，改进上述操作。 
       3）配置 Hikari 连接池，改进上述操作。提交代码到 GitHub。
@@ -118,7 +118,6 @@ xmind，百度脑图，wps，MindManage，或其他。![酝酿中，敬请期待
       (挑战) 自定义实现一个数据库连接池，并整合 Hibernate/Mybatis/Spring/SpringBoot。
 
       (挑战) 基于 MyBatis 实现一个简单的分库分表 + 读写分离 + 分布式 ID 生成方案。
-
 
 ## 【第六周】 Java 相关框架/系统性能优化
 
@@ -132,7 +131,8 @@ xmind，百度脑图，wps，MindManage，或其他。![酝酿中，敬请期待
 
 5.（选做）基于课程中的设计原则和最佳实践，分析是否可以将自己负责的业务系统进行数据库设计或是数据库服务器方面的优化
 
-6.（必做）基于电商交易场景（用户、商品、订单），设计一套简单的表结构，提交 DDL 的 SQL 文件到 Github（后面 2 周的作业依然要是用到这个表结构）。
+6.（必做）基于电商交易场景（用户、商品、订单），设计一套简单的表结构，提交 DDL 的 SQL 文件到 Github（后面 2
+周的作业依然要是用到这个表结构） [作业传送门 😋](https://github.com/SunChestnut/Java-Training-Camp/blob/main/doc/homework.sql)
 
 7.（选做）尽可能多的从“常见关系数据库”中列的清单，安装运行，并使用上一题的 SQL 测试简单的增删改查。
 
@@ -143,7 +143,6 @@ xmind，百度脑图，wps，MindManage，或其他。![酝酿中，敬请期待
 10.（选做）模拟 1000 万订单数据，测试不同方式下导入导出（数据备份还原）MySQL 的速度，包括 jdbc 程序处理和命令行处理。思考和实践，如何提升处理效率。
 
 11.（选做）对 MySQL 配置不同的数据库连接池（DBCP、C3P0、Druid、Hikari），测试增删改查 100 万次，对比性能，生成报告。
-
 
 [🚀 回到顶部](#Java-Training-Camp)
 
